@@ -52,4 +52,4 @@ console.log(lighterRacingBike);
 // print on page
 const lightestOne = document.getElementById("racing-bikes");
 
-lightestOne.innerText = `The lightest racing bike is:\n${lighterRacingBike.bikeName}\nWith the weight of:\n${lighterRacingBike.weight} kg`;
+lightestOne.innerText = `The lightest racing bike is: ${lighterRacingBike.bikeName}\nWith the weight of: ${lighterRacingBike.weight} kg`;
