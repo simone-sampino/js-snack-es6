@@ -3,4 +3,46 @@ Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse prop
 Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”. Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
  */
 
-console.log("ciao");
+// football teams array
+const footballTeams = [
+  {
+    teamName: "Inter",
+    points: 0,
+    foulsDrawn: 0,
+  },
+  {
+    teamName: "Palermo",
+    points: 0,
+    foulsDrawn: 0,
+  },
+  {
+    teamName: "Atalanta",
+    points: 0,
+    foulsDrawn: 0,
+  },
+  {
+    teamName: "Roma",
+    points: 0,
+    foulsDrawn: 0,
+  },
+  {
+    teamName: "Lazio",
+    points: 0,
+    foulsDrawn: 0,
+  },
+  {
+    teamName: "Napoli",
+    points: 0,
+    foulsDrawn: 0,
+  },
+  {
+    teamName: "Milan",
+    points: 0,
+    foulsDrawn: 0,
+  },
+  {
+    teamName: "Juventus",
+    points: 0,
+    foulsDrawn: 0,
+  },
+];
