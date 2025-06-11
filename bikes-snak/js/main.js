@@ -52,4 +52,4 @@ console.log(lighterRacingBike);
 // print on page
 const lightestOne = document.getElementById("racing-bikes");
 
-lightestOne.innerText = `La bici da corsa più leggera è: ${lighterRacingBike.bikeName}, con il peso di: ${lighterRacingBike.weight} kg`;
+lightestOne.innerText = `The lightest racing bike is:\n${lighterRacingBike.bikeName}\nWith the weight of:\n${lighterRacingBike.weight} kg`;
