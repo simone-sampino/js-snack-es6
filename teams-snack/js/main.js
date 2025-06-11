@@ -56,3 +56,18 @@ for (let i = 0; i < footballTeams.length; i++) {
 }
 
 console.log(footballTeams);
+
+// add new array with only names and fouls drawn
+const newArray = [];
+
+for (let i = 0; i < footballTeams.length; i++) {
+  let thisTeam = footballTeams[i];
+  const namesFouls = {
+    teamName: thisTeam.teamName,
+    foulsDrawn: thisTeam.foulsDrawn,
+  };
+  newArray.push(namesFouls);
+}
+
+// print in console
+console.log(newArray);
