@@ -46,3 +46,13 @@ const footballTeams = [
     foulsDrawn: 0,
   },
 ];
+
+// random numbers for points and fouls drawn properties
+for (let i = 0; i < footballTeams.length; i++) {
+  let thisTeam = footballTeams[i];
+
+  thisTeam.points = Math.floor(Math.random() * 100);
+  thisTeam.foulsDrawn = Math.floor(Math.random() * 100);
+}
+
+console.log(footballTeams);
