@@ -9,6 +9,7 @@ Creare un array di oggetti: Ogni oggetto descriverà una bici da corsa con le se
 - SAVA Phantom 2.0 700C – 8,1 kg
  */
 
+// racing bikes array
 const racingBikes = [
   {
     bikeName: "Wilier 0 SLR",
@@ -45,9 +46,10 @@ for (let i = 0; i < racingBikes.length; i++) {
   }
 }
 
+// check in console
 console.log(lighterRacingBike);
 
-/* Snack2
-Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti. Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
-Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”. Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
- */
+// print on page
+const lightestOne = document.getElementById("racing-bikes");
+
+lightestOne.innerText = `La bici da corsa più leggera è: ${lighterRacingBike.bikeName}, con il peso di: ${lighterRacingBike.weight} kg`;
